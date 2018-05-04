@@ -1,0 +1,9 @@
+.vertical{
+    width: 100%;
+    position: absolute;
+}
+
+.horizontal{
+    height: 100%;
+    position: absolute;
+}

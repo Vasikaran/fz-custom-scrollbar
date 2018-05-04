@@ -1,0 +1,14 @@
+{
+  "name": "scrollbar",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "fz-react-cli start"
+  },
+  "author": "Vasikaran S <vasikaran.25@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "fz-react-cli": "0.0.3-beta.110"
+  }
+}

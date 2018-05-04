@@ -1,0 +1,22 @@
+.vertical {
+    width: 500px;
+    height: 500px;
+    overflow:auto;
+    float: left;
+    background: lightblue;
+    margin-left: 200px;
+}
+
+.scrollAreaStyle{
+
+}
+
+.scrollTrackStyle{
+    width: 10px;
+    background: #f1f1f1;
+}
+
+.scrollThumbStyle{
+    border-radius: 5px;
+    background: #c1c1c1;
+}

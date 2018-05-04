@@ -1,0 +1,13 @@
+.overlay{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.scrollableArea{
+    overflow: auto;
+    height: 100%;
+    width: 100%;
+    padding-bottom: 5vh;
+    box-sizing: content-box;
+}

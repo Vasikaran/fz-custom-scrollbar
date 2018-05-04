@@ -1,0 +1,13 @@
+.vertical{
+    position: absolute;
+    height: 100%;
+    top: 0;
+    right: 0;
+}
+
+.horizontal{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+}

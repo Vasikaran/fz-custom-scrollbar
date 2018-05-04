@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style media="screen">
+            .overlay{
+                height: 400px;
+                width: 400px;
+                overflow: hidden;
+                position: relative;
+            }
+            .scrollArea{
+                position: absolute;
+                right: 0;
+                left: 0;
+                bottom: 0;
+                top: 0;
+                background: lightblue;
+                overflow: auto;
+                margin-right: -5vw;
+            }
+            .content{
+                font-size: 18px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Custom Scrollbar Revamp</h1>
+        <div class="overlay">
+            <div class="scrollArea" id="scrollArea"/>
+        </div>
+        <script type="text/javascript">
+            var content =  'Hello! This is example for Custom Scrollbar Revamp';
+            var scrollArea = document.getElementById('scrollArea');
+            for (var i=0; i<100; i++){
+                var div = document.createElement('div');
+                div.className = 'content';
+                div.innerText = content;
+                scrollArea.appendChild(div);
+            }
+        </script>
+    </body>
+</html>

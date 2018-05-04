@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style media="screen">
+            .overlay{
+                height: 400px;
+                width: 400px;
+                overflow: hidden;
+                position: relative;
+            }
+            .scrollArea{
+                overflow: auto;
+                background: lightblue;
+                height: 100%;
+                width: calc(100% + 5vw);
+            }
+            .leftColumn{
+                width: calc(100% - 5vw);
+                float: left;
+            }
+            .rightColumn{
+                width: 5vw;
+                float: left;
+                height: 100%
+            }
+            .content{
+                font-size: 18px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Custom Scrollbar Revamp</h1>
+        <div class="overlay">
+            <div class="scrollArea">
+                <div class="leftColumn" id="leftColumn"></div>
+                <div class="rightColumn"></div>
+            </div>
+        </div>
+        <script type="text/javascript">
+            var content =  'Hello! This is example for Custom Scrollbar Revamp';
+            var leftColumn = document.getElementById('leftColumn');
+            for (var i=0; i<100; i++){
+                var div = document.createElement('div');
+                div.className = 'content';
+                div.innerText = content;
+                leftColumn.appendChild(div);
+            }
+        </script>
+    </body>
+</html>

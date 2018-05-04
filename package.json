@@ -1,0 +1,32 @@
+{
+  "name": "fz-custom-scrollbar",
+  "version": "2.1.0",
+  "description":
+    "An alternative scrollbar of native scrollbar with cross-browser support",
+  "main": "./lib/index.js",
+  "module": "./es/index.js",
+  "sideEffects": "false",
+  "scripts": {
+    "build": "fz-react-cli build:component",
+    "build:es": "fz-react-cli build:library:es",
+    "prepublish": "npm run build && npm run build:es"
+  },
+  "author": "Vasikaran S <vasikaran.25@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "fz-react-cli": "0.0.3-beta.110"
+  },
+  "directories": {
+    "example": "examples",
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vasikaran/fz-custom-scrollbar.git"
+  },
+  "keywords": ["scrollbar", "custom", "scrollbar", "react", "scrollbar"],
+  "bugs": {
+    "url": "https://github.com/Vasikaran/fz-custom-scrollbar/issues"
+  },
+  "homepage": "https://github.com/Vasikaran/fz-custom-scrollbar#readme"
+}
